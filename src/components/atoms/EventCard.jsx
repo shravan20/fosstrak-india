@@ -24,7 +24,7 @@ const EventCard = ({ event }) => {
                   className="rounded-lg border bg-card text-card-foreground shadow-sm"
                   data-v0-t="card"
                   src={event.imageUrl}
-                  alt="Shoes"
+                  alt={event.name}
                 />
               </figure>
 

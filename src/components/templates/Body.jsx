@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import eventsData from "../../data/events-v1.json";
 import EventList from "../molecules/EventList";
+import AnnouncementSlider from "../atoms/AnnouncementSlider";
+
 const Body = () => {
   const [events, setEvents] = useState([]);
 
