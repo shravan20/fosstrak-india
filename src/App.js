@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Body from './components/templates/Body';
+import Body from './components/templatez/HomePage';
 import Navbar from './components/atoms/Navbar';
 const App = () => {
     return (
