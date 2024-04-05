@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import EventList from './components/molecules/EventList';
-
+import Navbar from './components/atoms/Navbar';
 const App = () => {
   const [events, setEvents] = useState([]);
 
@@ -26,10 +26,14 @@ const App = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8">Upcoming Events</h1>
-      <EventList events={events} />
-    </div>
+    <>
+      <Navbar />
+      <div className="container mx-auto px-4 py-8" >
+        <h1 className="text-4xl font-bold mb-8">Upcoming Events</h1>
+        <EventList events={events} />
+      </div>
+    </>
+
   );
 };
 
