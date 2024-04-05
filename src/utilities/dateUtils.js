@@ -4,9 +4,8 @@ const toLocaleDateString = (date) => {
         month: 'long',
         year: 'numeric',
     });
-}
-
+};
 
 module.exports = {
-    toLocaleDateString
-}
+    toLocaleDateString,
+};

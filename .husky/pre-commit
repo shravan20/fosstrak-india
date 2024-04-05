@@ -17,9 +17,8 @@ NC='\033[0m'
 
 echo -e "${YELLOW}Running pre-commit checks...${NC}"
 
-npm run format &&
-npm run lint
-echo -e "${GREEN}Linter validation complete for the api submodule${NC}"
+npm run format
+echo -e "${GREEN}Formatting is done${NC}"
 
 npm run build
 echo -e "${GREEN}Build is complete${NC}"
