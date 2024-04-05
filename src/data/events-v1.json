@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Test Event",
+    "description": "Description Test event",
+    "startDate": null,
+    "endDate": null,
+    "location": "Mangalore",
+    "type": "Free"
+  },
+  {
+    "name": "Test Event 2",
+    "description": "Description Test event 2",
+    "startDate": null,
+    "endDate": null,
+    "location": "Bangalore",
+    "type": "Paid"
+  }
+]
