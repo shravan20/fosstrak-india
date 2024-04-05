@@ -1,31 +1,59 @@
-# Create React App
+# FossTra - Open Data for FOSS Events in India
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+FossTrak is an open-source project that aims to provide a central platform for discovering and previewing all the Free and Open Source Software (FOSS) events happening across India.
 
-## Deploy Your Own
+# Project Stack
 
-Deploy your own Create React App project with Vercel.
+This project is built with the following technologies:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+- React: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
+- CSV: Comma-Separated Values - a simple file format for storing tabular data.
 
-_Live Example: https://create-react-template.vercel.app/_
+## Prerequisites
 
-## Available Scripts
+To run this project, you will need the following:
 
-In the project directory, you can run:
+Node.js and npm (or yarn) installed on your system.
+A code editor or IDE of your choice.
 
-### `npm start`
+### Installation
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+```
+Bash
+git clone <https://github.com/shravan20/fosstrak-india.git>
+```
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```Bash
+cd fosstrak-india
+```
 
-### `npm run build`
+3. Install dependencies
 
-Builds the app for production to the `build` folder.
+```Bash
+npm i
+```
 
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+### Running the Application
+
+```Bash
+npm start
+```
+
+This will start a local development server at [http://localhost:3000](http://localhost:3000) by default. You can then open this URL in your web browser to view the application.
+
+## Data Source
+
+The application currently uses CSV files as the source of open data for FOSS events. The specific CSV files and their format will be documented in a separate file.
+
+# Contributing
+
+We welcome contributions to this project! Please see the CONTRIBUTING.md file for guidelines on how to contribute code, report issues, and request features.
+
+# License
+
+This project is licensed under the MIT License. See the [LICENSE](./MIT.license) file for details.
