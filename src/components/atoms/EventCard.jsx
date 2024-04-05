@@ -80,7 +80,9 @@ const EventCard = ({ event }) => {
                     <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
                       Location
                     </span>
-                    <span className="font-semibold">{event.location}</span>
+                    <span className="font-semibold">
+                      {event.location.title}
+                    </span>
                   </p>
                 </div>
               </div>
