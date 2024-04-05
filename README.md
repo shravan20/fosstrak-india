@@ -1,10 +1,13 @@
 <samp>
-<header>
-   <h1>FossTrak - Open Data for FOSS Events in India</h1>
+
+<p align="center">
+  <img align="center" width="20%" src="assets/uiScreen.gif" alt="logo"/>
+  <h2 align="center">FossTrak - Open Data for FOSS Events in India</h2>
    <p>FossTrak is an open-source project that aims to provide a central platform for discovering and previewing all
       the Free and Open Source Software (FOSS) events happening across India.
    </p>
-</header>
+</p>
+
 <section>
    <h2>Project Stack</h2>
    <ul>
