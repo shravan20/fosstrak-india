@@ -14,7 +14,7 @@ const EventCard = ({ event }) => {
       </figure>
       <div className="card-body">
         <h2 className="card-title">{event.name}</h2>
-        <p>event.description</p>
+        <p>{event.description}</p>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">Explore more</button>
         </div>
