@@ -21,8 +21,7 @@ A code editor or IDE of your choice.
 
 1. Clone the repository:
 
-```
-Bash
+```Bash
 git clone <https://github.com/shravan20/fosstrak-india.git>
 ```
 
@@ -49,6 +48,14 @@ This will start a local development server at [http://localhost:3000](http://loc
 ## Data Source
 
 The application currently uses CSV files as the source of open data for FOSS events. The specific CSV files and their format will be documented in a separate file.
+
+## Deploy Your Own
+
+Deploy your own FOSSTrak project with Vercel.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/shravan20/fosstrak-india/tree/main&template=create-react-app)
+
+_Live Example: <https://fosstrak-india.vercel.app//>_
 
 # Contributing
 
