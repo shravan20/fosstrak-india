@@ -19,6 +19,15 @@ const EventCard = ({ event }) => {
               className="rounded-lg border bg-card text-card-foreground shadow-sm"
               data-v0-t="card"
             >
+              <figure>
+                <img
+                  className="rounded-lg border bg-card text-card-foreground shadow-sm"
+                  data-v0-t="card"
+                  src={event.imageUrl}
+                  alt="Shoes"
+                />
+              </figure>
+
               <div className="p-4">
                 <div className="text-sm grid gap-1">
                   <p className="flex items-center gap-2">

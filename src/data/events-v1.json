@@ -1,18 +1,34 @@
 [
   {
-    "name": "Test Event",
+    "name": "Test Event 2024",
+    "shortName": "TE'24",
+    "shortDescription": "This is a simple One liner Description Test event",
     "description": "Description Test event",
     "startDate": null,
     "endDate": null,
-    "location": "Mangalore",
-    "type": "Free"
-  },
-  {
-    "name": "Test Event 2",
-    "description": "Description Test event 2",
-    "startDate": null,
-    "endDate": null,
-    "location": "Bangalore",
-    "type": "Paid"
+    "website": "www.ohmyscript.com",
+    "location": {
+      "title": "Saibeen Complex, Mangalore",
+      "lat": "12.26",
+      "lng": "122.24"
+    },
+    "type": "Free",
+    "presentationForm": "ONLINE",
+    "registrationLink": "http://ohmyscript.com/registration",
+    "mainOrganisers": [],
+    "hashTags": [],
+    "bannerLink": [
+      {
+        "link": "",
+        "isActive": true,
+        "isMain": true
+      }
+    ],
+    "socialAccounts": [
+      {
+        "type": "MASTODON",
+        "identified": "https://mastodon.social/@shravan20"
+      }
+    ]
   }
 ]
