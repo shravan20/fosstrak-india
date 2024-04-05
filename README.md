@@ -1,7 +1,7 @@
 <samp>
 
 <p align="center">
-  <img align="center" width="20%" src="assets/uiScreen.gif" alt="logo"/>
+  <img align="center" width="20%" src="public/ft_logo.png" alt="logo"/>
   <h2 align="center">FossTrak - Open Data for FOSS Events in India</h2>
    <p>FossTrak is an open-source project that aims to provide a central platform for discovering and previewing all
       the Free and Open Source Software (FOSS) events happening across India.
