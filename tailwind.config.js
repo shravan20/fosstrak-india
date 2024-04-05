@@ -49,7 +49,7 @@ module.exports = {
 
           'accent': '#37cdbe',
           'accent-focus': '#2ba69a',
-          // 'accent-content': '#ffffff',
+          'accent-content': '#ffffff',
 
           'neutral': '#2a2e37',
           'neutral-focus': '#16181d',
@@ -81,5 +81,5 @@ module.exports = {
   },
   plugins: [
     require('daisyui'),
-  ]
+  ],
 }

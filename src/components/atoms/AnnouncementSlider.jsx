@@ -2,9 +2,9 @@ import React from "react";
 
 const AnnouncementSlider = ({ announcement }) => {
   return (
-    <div class="fixed inset-x-0 bottom-0 p-4">
-      <div class="relative flex items-center justify-between gap-4 rounded-lg bg-indigo-600 px-4 py-3 text-white shadow-lg">
-        <p class="text-sm font-medium">
+    <div className="fixed inset-x-0 bottom-0 p-4">
+      <div className="relative flex items-center justify-between gap-4 rounded-lg accent-content bg-indigo-600 px-4 py-3 text-white shadow-lg">
+        <p className="text-sm font-medium">
           {announcement && announcement.title ? announcement.title : ""}
           <a
             href={
@@ -12,7 +12,7 @@ const AnnouncementSlider = ({ announcement }) => {
                 ? announcement.hyperlink
                 : ""
             }
-            class="inline-block underline"
+            className="inline-block underline"
           >
             {announcement && announcement.description
               ? announcement.description
@@ -22,11 +22,11 @@ const AnnouncementSlider = ({ announcement }) => {
 
         <button
           aria-label="Close"
-          class="shrink-0 rounded-lg bg-black/10 p-1 transition hover:bg-black/20"
+          className="shrink-0 rounded-lg bg-black/10 p-1 transition hover:bg-black/20"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
+            className="h-5 w-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
