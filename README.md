@@ -1,4 +1,4 @@
-# FossTra - Open Data for FOSS Events in India
+# FossTrak - Open Data for FOSS Events in India
 
 FossTrak is an open-source project that aims to provide a central platform for discovering and previewing all the Free and Open Source Software (FOSS) events happening across India.
 
