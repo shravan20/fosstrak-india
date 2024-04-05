@@ -4,14 +4,21 @@ import Navbar from './components/atoms/Navbar';
 const App = () => {
   const [events, setEvents] = useState([]);
 
+  const toLocaleDateString = (date) => {
+    return date.toLocaleDateString('en-US', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    });
+  }
   useEffect(() => {
     // Mock API call to fetch events (replace with your actual API call)
     const fetchEvents = async () => {
       try {
         const response = [{
-          name: "Test Event", description: "Description Test event", date: new Date().toString(), location: "Mangalore"
+          name: "Test Event", description: "Description Test event", startDate: toLocaleDateString(new Date()), endDate: toLocaleDateString(new Date()), location: "Mangalore", type: "Free"
         }, {
-          name: "Test Event 2", description: "Description Test event 2", date: new Date().toString(), location: "Bangalore"
+          name: "Test Event 2", description: "Description Test event 2", startDate: toLocaleDateString(new Date()), endDate: toLocaleDateString(new Date()), location: "Bangalore", type: "Paid"
         }];
         // const response = await fetch('https://api.example.com/events');
         // const data = await response.json();
