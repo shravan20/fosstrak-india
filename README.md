@@ -8,6 +8,16 @@
    </p>
 </p>
 
+<p align="center">
+    <img src="https://img.shields.io/badge/license-MIT-green?logo=dark-green" alt="MIT License" style="margin: 5px;" />
+    <img src="https://img.shields.io/badge/PRs-Welcome-success" alt="PRs Welcome" style="margin: 5px;" />
+    <a href="https://github.com/shravan20/fosstrak/issues"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue" style="margin: 5px;"></a>
+</p>
+
+<p align="center">
+    <img src="https://madewithlove.now.sh/in?heart=true&colorA=%23ff671f&colorB=%23046a38&text=the+Quantum+Realm+of+Open+Source" alt="Made with love with Open Source"/>
+</p>
+
 <section>
    <h2>Project Stack</h2>
    <ul>
