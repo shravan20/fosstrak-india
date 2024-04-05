@@ -1,4 +1,4 @@
-# FossTra - Open Data for FOSS Events in India
+# FossTrak - Open Data for FOSS Events in India
 
 FossTrak is an open-source project that aims to provide a central platform for discovering and previewing all the Free and Open Source Software (FOSS) events happening across India.
 
@@ -14,7 +14,7 @@ This project is built with the following technologies:
 
 To run this project, you will need the following:
 
-Node.js and npm (or yarn) installed on your system.
+Node.js (requires 16.9 or higher) and npm (or yarn) installed on your system.
 A code editor or IDE of your choice.
 
 ### Installation
