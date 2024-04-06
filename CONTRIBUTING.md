@@ -48,8 +48,9 @@ To start contributing, follow these steps:
 
 Once you have set up the project on your local machine and created a new branch, you can start making changes:
 
-- Code: Write or modify code to implement your contribution.
-- Documentation: Update project documentation to reflect your changes.
+- **Add FOSS events into platform**: Add Free and Open Source Software (FOSS) events to the platform by submitting a pull request (PR). This allows for showcasing all ongoing events within your organization or community, enabling FOSS enthusiasts to discover and participate in these events.
+- **Code**: Write or modify code to implement your contribution.
+- **Documentation**: Update project documentation to reflect your changes.
 
 # Code Style
 
