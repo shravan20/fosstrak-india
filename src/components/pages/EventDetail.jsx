@@ -1,3 +1,4 @@
+import MapPreview from '../atoms/MapPreview';
 const EventDetail = () => {
     return (
         <>
@@ -379,6 +380,30 @@ const EventDetail = () => {
                             </div>
                         </div>
                     </div>
+                </section>
+                <section className="py-12 lg:py-16 xl:py-20">
+                    <MapPreview
+                        mapData={[
+                            {
+                                id: 1,
+                                lat: 8.75815685251226,
+                                lon: 72.18053344930304,
+                                label: 'Event 1',
+                                date_string: 'April 10, 2024',
+                                readable_city: 'City A',
+                                details_url: 'https://example.com/event1',
+                            },
+                            {
+                                id: 2,
+                                lat: 36.605181960912574,
+                                lon: 84.72898433072771,
+                                label: 'Event 2',
+                                date_string: 'April 15, 2024',
+                                readable_city: 'City B',
+                                details_url: 'https://example.com/event2',
+                            },
+                        ]}
+                    />
                 </section>
             </div>
         </>
