@@ -11,7 +11,6 @@ const App = () => {
             <Navbar />
             <Body />
             <Modal childrenComponent={<EventDetail />} />
-
         </>
     );
 };
