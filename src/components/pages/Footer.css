@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.bar {
+    border: none;
+    height: 3px;
+    background-color: white;
+    margin: 10px 0;
+}

@@ -1,4 +1,5 @@
 import MapPreview from '../atoms/MapPreview';
+import Footer from './footer';
 const EventDetail = () => {
     return (
         <>
@@ -405,6 +406,7 @@ const EventDetail = () => {
                         ]}
                     />
                 </section>
+                <Footer />
             </div>
         </>
     );
