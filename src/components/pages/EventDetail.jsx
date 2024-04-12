@@ -6,8 +6,8 @@ const EventDetail = () => {
                 {/* Event details Header */}
                 <section className="py-12 lg:py-16 xl:py-20">
                     <div className="container px-4 md:px-6">
-                        <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16">
-                            <div className="space-y-4">
+                        <div className="grid gap-6 lg:grid-cols-3 lg:gap-12 xl:gap-16">
+                            <div className="lg:col-span-2 space-y-4">
                                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                                     Modern Web Summit
                                 </h1>
@@ -20,9 +20,9 @@ const EventDetail = () => {
                                             viewBox="0 0 24 24"
                                             fill="none"
                                             stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                             className="w-4 h-4 flex-shrink-0"
                                         >
                                             <rect
@@ -62,9 +62,9 @@ const EventDetail = () => {
                                             viewBox="0 0 24 24"
                                             fill="none"
                                             stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                             className="w-4 h-4 flex-shrink-0"
                                         >
                                             <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon>
@@ -85,13 +85,22 @@ const EventDetail = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-start space-x-4">
-                                <button className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8">
-                                    Add to Calendar
-                                </button>
-                                <button className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8">
-                                    Register
-                                </button>
+                            <div className="lg:col-span-1 flex flex-col justify-center items-center space-y-4">
+                                <img
+                                    alt="Image"
+                                    className="rounded-xl object-cover object-center"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcAUdy8kXZZJ90BoNJRh8Ed9LVeCGuFAVMRW6Yu9J5w&s"
+                                    height="225"
+                                    width="400"
+                                />
+                                <div className="flex space-x-4">
+                                    <button className="text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8">
+                                        Add to Calendar
+                                    </button>
+                                    <button className="text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8">
+                                        Register
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
