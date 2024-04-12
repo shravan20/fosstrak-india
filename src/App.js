@@ -19,7 +19,6 @@ const App = () => {
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </BrowserRouter>
-            <Modal childrenComponent={<EventDetail />} />
         </>
     );
 };

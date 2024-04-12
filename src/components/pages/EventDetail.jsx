@@ -3,6 +3,7 @@ const EventDetail = () => {
     return (
         <>
             <div className="bg-gray-50">
+                {/* Event details Header */}
                 <section className="py-12 lg:py-16 xl:py-20">
                     <div className="container px-4 md:px-6">
                         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16">
@@ -95,6 +96,7 @@ const EventDetail = () => {
                         </div>
                     </div>
                 </section>
+                {/* About Event Body */}
                 <section className="border-t border-b py-12 lg:py-16 xl:py-20">
                     <div className="container px-4 md:px-6">
                         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16">
@@ -127,6 +129,7 @@ const EventDetail = () => {
                         </div>
                     </div>
                 </section>
+                {/* Featured Speakers and Event Timeline */}
                 <section className="py-12 lg:py-16 xl:py-20">
                     <div className="container px-4 md:px-6">
                         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16">
