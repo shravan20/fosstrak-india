@@ -1,5 +1,5 @@
 import MapPreview from '../atoms/MapPreview';
-import Footer from './footer';
+import Footer from './Footer';
 const EventDetail = () => {
     return (
         <>
