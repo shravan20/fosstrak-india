@@ -149,7 +149,7 @@ const EventDetail = () => {
                                 <div className="grid gap-4 md:grid-cols-2 md:gap-8">
                                     <div className="flex items-center space-x-4">
                                         <img
-                                            src="/placeholder.svg"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcAUdy8kXZZJ90BoNJRh8Ed9LVeCGuFAVMRW6Yu9J5w&s"
                                             width="120"
                                             height="120"
                                             alt="Speaker"
@@ -173,7 +173,7 @@ const EventDetail = () => {
                                     </div>
                                     <div className="flex items-center space-x-4">
                                         <img
-                                            src="/placeholder.svg"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcAUdy8kXZZJ90BoNJRh8Ed9LVeCGuFAVMRW6Yu9J5w&s"
                                             width="120"
                                             height="120"
                                             alt="Speaker"
@@ -196,7 +196,7 @@ const EventDetail = () => {
                                     </div>
                                     <div className="flex items-center space-x-4">
                                         <img
-                                            src="/placeholder.svg"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcAUdy8kXZZJ90BoNJRh8Ed9LVeCGuFAVMRW6Yu9J5w&s"
                                             width="120"
                                             height="120"
                                             alt="Speaker"
