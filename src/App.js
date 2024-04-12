@@ -4,7 +4,7 @@ import Navbar from './components/atoms/Navbar';
 import Modal from './components/atoms/Modal';
 import CustomisedNavbar from './components/atoms/CustomisedNavbar';
 import EventDetail from './components/pages/EventDetail';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NotFound from './components/pages/NotFound';
 
 const App = () => {
