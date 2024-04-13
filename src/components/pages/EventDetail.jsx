@@ -289,16 +289,23 @@ const SpeakersAndScheduleSection = ({ speakers, schedule }) => {
     );
 };
 
-const EventDetail = () => {
+const EventDetail = ({
+    eventDetailHeaderProps,
+    aboutEventSectionProps,
+    speakersAndScheduleSectionProps,
+    mapPreviewProps,
+}) => {
     return (
         <>
             <div className="bg-gray-50">
                 {/* Event details Header */}
-                <EventDetailHeader />
+                <EventDetailHeader {...eventDetailHeaderProps} />
                 {/* About Event Body */}
-                <AboutEventSection />
+                <AboutEventSection {...aboutEventSectionProps} />
                 {/* Featured Speakers and Event Timeline */}
-                <SpeakersAndScheduleSection />
+                <SpeakersAndScheduleSection
+                    {...speakersAndScheduleSectionProps}
+                />
                 {/* Event Maps */}
                 <section className="py-12 lg:py-16 xl:py-20">
                     <MapPreview
