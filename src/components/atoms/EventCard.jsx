@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from './Modal';
 import EventDetail from '../pages/EventDetail';
-
+import toLocaleDateString from '../../utilities/dateUtils';
 const EventCard = ({ event }) => {
     return (
         <>
@@ -78,7 +78,9 @@ const EventCard = ({ event }) => {
                                             Date
                                         </span>
                                         <span className="font-semibold">
-                                            {event.startDate}
+                                            {event.startDate
+                                                ? event.startDate
+                                                : new Date().toLocaleDateString()}
                                         </span>
                                     </p>
                                     <p className="flex items-center gap-2">
