@@ -73,6 +73,14 @@ const EventDetailHeader = ({ title, dates, location, imageUrl }) => {
                             width="400"
                         />
                         {/* Buttons for Add to Calendar and Register */}
+                        <div className="flex space-x-4">
+                            <button className="text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8">
+                                Add to Calendar
+                            </button>
+                            <button className="text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8">
+                                Register
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
