@@ -7,14 +7,23 @@ const toLocaleDateString = (date) => {
 };
 
 const formatDateRange = (startDateStr, endDateStr) => {
-
     const startDate = new Date(startDateStr);
     const endDate = new Date(endDateStr);
 
     const formatDate = (date) => {
         const monthNames = [
-            "January", "February", "March", "April", "May", "June",
-            "July", "August", "September", "October", "November", "December"
+            'January',
+            'February',
+            'March',
+            'April',
+            'May',
+            'June',
+            'July',
+            'August',
+            'September',
+            'October',
+            'November',
+            'December',
         ];
 
         const month = monthNames[date.getMonth()];
@@ -25,10 +34,10 @@ const formatDateRange = (startDateStr, endDateStr) => {
 
     const formattedStartDate = formatDate(startDate);
     const formattedEndDate = formatDate(endDate);
-    return `${formattedStartDate}-${formattedEndDate}`;;
-}
+    return `${formattedStartDate}-${formattedEndDate}`;
+};
 
 module.exports = {
     toLocaleDateString,
-    formatDateRange
+    formatDateRange,
 };
