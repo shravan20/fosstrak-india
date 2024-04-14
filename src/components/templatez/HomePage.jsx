@@ -3,7 +3,7 @@ import eventsData from '../../data/events-v1.json';
 import EventList from '../molecules/EventList';
 import HomePageHero from '../organisms/HomePageHero';
 
-const Body = () => {
+const HomePage = () => {
     const [events, setEvents] = useState([]);
 
     useEffect(() => {
@@ -29,4 +29,4 @@ const Body = () => {
     );
 };
 
-export default Body;
+export default HomePage;
