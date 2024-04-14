@@ -1,5 +1,5 @@
 import React from 'react';
-import Body from './components/templatez/HomePage';
+import HomePage from './components/templatez/HomePage';
 import Navbar from './components/atoms/Navbar';
 import Modal from './components/atoms/Modal';
 import CustomisedNavbar from './components/atoms/CustomisedNavbar';
@@ -14,8 +14,8 @@ const App = () => {
             <Navbar />
             <Router>
                 <Routes>
-                    <Route path="/" element={<Body />} />
-                    <Route path="/home" element={<Body />} />
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/home" element={<HomePage />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Router>
