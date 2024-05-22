@@ -20,7 +20,7 @@ const HomePage = () => {
     }, []);
     return (
         <>
-            <HomePageHero />
+            {/* <HomePageHero /> */}
             <div className="container mx-auto px-4 py-8">
                 <h1 className="text-4xl font-bold mb-8">Upcoming Events</h1>
                 <EventList events={events} />

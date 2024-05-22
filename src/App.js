@@ -6,6 +6,7 @@ import CustomisedNavbar from './components/atoms/CustomisedNavbar';
 import EventDetail from './components/pages/EventDetail';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NotFound from './components/pages/NotFound';
+import Footer from './components/atoms/Footer';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Router>
+            <Footer />
         </>
     );
 };
