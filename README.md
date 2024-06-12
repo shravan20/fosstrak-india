@@ -72,6 +72,6 @@
       contribute code, report issues, and request features.
    </p>
    <h2>License</h2>
-   <p>This project is licensed under the MIT License. See the <a href="./LICENSE.md">LICENSE</a> file for details.</p>
+   <p>This project is licensed under the MIT License. See the <a href="./LICENSE.md">MIT LICENSE</a> file for details.</p>
 </footer>
 <samp>
